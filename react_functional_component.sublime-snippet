@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const ${1:Component} = ({${2}}) => (
+
+);
+
+const {${3}} = PropTypes;
+
+${1:Component}.propTypes = {${4}}
+
+export default ${1:Component};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rfc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

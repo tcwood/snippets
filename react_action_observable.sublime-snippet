@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+export const ${1:action}Fulfilled = payload => ({type: '${2:ACTION}_FULFILLED', payload});
+export const ${1:action}Failed = error => ({type: '${2:ACTION}_FAILED', error});
+export const ${1:action}Cancelled = cancel => ({type: '${2:ACTION}_CANCELLED', cancel});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rao</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
