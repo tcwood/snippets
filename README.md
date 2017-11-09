@@ -4,6 +4,7 @@
 - cl - console log (same quote as var)
 - cl2 - console log (different quote than var)
 - im - import
+- arr - arrow function
 
 ## React / Redux
 - rfc - react functional component
