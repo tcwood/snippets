@@ -5,6 +5,7 @@
 - cl2 - console log (different quote than var)
 - im - import
 - arr - arrow function
+- case - case block
 
 ## React / Redux
 - rfc - react functional component
